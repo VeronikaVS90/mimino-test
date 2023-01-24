@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Готельно-ресторанний комплекс</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <section class="about-hotel">
@@ -16,40 +21,40 @@
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
           consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
         </p>
-        <div class="about-hotel__thumb">
-          <picture>
-            <source
-              srcset="
-                ./images/m-desktop/homepage-about-hotel-room-desktop-@1x.jpg 1x,
-                ./images/m-desktop/homepage-about-hotel-room-desktop-@2x.jpg 2x
-              "
-              media="(min-width: 1280px)"
-            />
-            <source
-              srcset="
-                ./images/m-tablet/homepage-about-hotel-room-tablet-@1x.jpg 1x,
-                ./images/m-tablet/homepage-about-hotel-room-tablet-@2x.jpg 2x
-              "
-              media="(min-width: 1024px)"
-            />
-            <img
-              srcset="
-                ./images/m-mobile/homepage-about-hotel-room-mobile-@1x.jpg 1x,
-                ./images/m-mobile/homepage-about-hotel-room-mobile-@2x.jpg 2x
-              "
-              src="./images/m-mobile/homepage-about-hotel-room-mobile-@1x.jpg"
-              alt="Готельний номер"
-              class="about-hotel__room-img"
-            />
-          </picture>
-        </div>
 
-        <p class="about-hotel__hall-text">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-          consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-        </p>
+        <picture>
+          <source
+            srcset="
+              ./images/m-desktop/homepage-about-hotel-room-desktop-@1x.jpg 1x,
+              ./images/m-desktop/homepage-about-hotel-room-desktop-@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./images/m-tablet/homepage-about-hotel-room-tablet-@1x.jpg 1x,
+              ./images/m-tablet/homepage-about-hotel-room-tablet-@2x.jpg 2x
+            "
+            media="(min-width: 1024px)"
+          />
+          <img
+            srcset="
+              ./images/m-mobile/homepage-about-hotel-room-mobile-@1x.jpg 1x,
+              ./images/m-mobile/homepage-about-hotel-room-mobile-@2x.jpg 2x
+            "
+            src="./images/m-mobile/homepage-about-hotel-room-mobile-@1x.jpg"
+            alt="Готельний номер"
+            class="about-hotel__room-img"
+          />
+        </picture>
 
-        <div class="about-hotel__thumb">
+        <div class="about-hotel__hall-container">
+          <p class="about-hotel__hall-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br />
+            sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+            nostrud amet.
+          </p>
+
           <picture>
             <source
               srcset="
