@@ -39,6 +39,7 @@
             transform: translateX(0.3em);
 
             @media screen and (min-width: 1024px) {
+                margin-bottom: 24px;
                 font-size: 64px;
                 line-height: 1.078;
             }
@@ -83,6 +84,12 @@
         &__hall-container {
             display: flex;
             align-items: center;
+
+            @media screen and (min-width: 1024px) {
+                    position: absolute;
+                    top: 476px;
+                    left: 267px;
+                }
         }
 
         &__hall-text {
@@ -92,6 +99,12 @@
             font-size: 12px;
             line-height: 1.25;
             max-width: 163px;
+
+            @media screen and (min-width: 1024px) {
+                margin-right: 48px;
+                font-size: 16px;
+                min-width: 312px;
+            }
             
         }
 
@@ -99,11 +112,7 @@
             border-radius: 2px;
                 box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 
-                @media screen and (min-width: 1024px) {
-                        position: absolute;
-                        top: 476px;
-                        left: 627px;
-                    }
+               
         }
 }
 
