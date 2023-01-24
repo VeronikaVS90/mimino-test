@@ -1,5 +1,5 @@
 .about-hotel {
-   
+
     padding-top: 18px;
     padding-bottom: 20px;
 
@@ -9,110 +9,138 @@
         position: relative;
     }
 
+        @media screen and (min-width: 1280px) {
+            
+            padding-bottom: 50px;
+            
+        }
+
     &__headline {
-        
+
         margin-bottom: 6px;
-            color: #B4B4B4;
-            font-family: 'Times New Roman';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 1.15;
-            text-align: end;
+        color: #B4B4B4;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.15;
+        text-align: end;
 
-            @media screen and (min-width: 1024px) {
-                margin-bottom: 4px;
-                font-size: 32px;
-                line-height: 1.16;
-            }
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 4px;
+            font-size: 32px;
+            
+        }
+    }
+
+    &__logo {
+
+        margin-bottom: 16px;
+        color: #494848;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.076;
+        letter-spacing: 0.3em;
+        text-align: end;
+        transform: translateX(0.3em);
+
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 24px;
+            font-size: 64px;
+            
+        }
+    }
+
+    &__room-text {
+
+        max-width: 242px;
+        margin-right: 0;
+        margin-left: auto;
+
+        margin-bottom: 28px;
+        color: #5F5F5F;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        text-align: start;
+        transform: translateX(0.02em);
+
+        @media screen and (min-width: 1024px) {
+            max-width: 419px;
+            // height: 80px;
+            font-size: 16px;
+            line-height: 1.218;
+            // margin-left: 46px;
+            // text-align: end;
         }
 
-        &__logo {
-            
-            margin-bottom: 16px;
-            color: #494848;
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 1.076;
-            letter-spacing: 0.3em;
-            text-align: end;
-            transform: translateX(0.3em);
+                 @media screen and (min-width: 1280px) {
+                    min-width: 488px;
+                    
+                 }
+    }
 
-            @media screen and (min-width: 1024px) {
-                margin-bottom: 24px;
-                font-size: 64px;
-                line-height: 1.078;
-            }
+    &__room-img {
+        margin-bottom: 32px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+
+        @media screen and (min-width: 1024px) {
+            position: absolute;
+            top: -24px;
+            left: 112px;
         }
 
-        &__room-text {
-            
-            max-width: 242px;
-            margin-right: 0;
-            margin-left: auto;
-            
-            margin-bottom: 28px;
-            color: #5F5F5F;
-            font-weight: 600;
-            font-size: 12px;
-            line-height: 1.25;
-            letter-spacing: 0.02em;
-            text-align: start;
-            transform: translateX(0.02em);  
-            
-            @media screen and (min-width: 1024px) {
-                min-width: 419px;
-                // height: 80px;
-                font-size: 16px;
-                // margin-left: 46px;
-                // text-align: end;
-            }
+                 @media screen and (min-width: 1280px) {
+                    left: 180px;
+                 }
+    }
+
+    &__hall-container {
+        display: flex;
+        align-items: center;
+
+        @media screen and (min-width: 1024px) {
+            position: absolute;
+            top: 476px;
+            left: 267px;
         }
 
-        &__room-img {
-            margin-bottom: 32px;
-            border-radius: 2px;
-            box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+                 @media screen and (min-width: 1280px) {
+                    
+                     top: 504px;
+                     left: 379px;
+                 }
+    }
 
-            @media screen and (min-width: 1024px) {
-                position: absolute;
-                top: -24px;
-                left: 112px;
-            }
+    &__hall-text {
+        margin-right: 21px;
+        color: #C79002;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        max-width: 163px;
+
+        @media screen and (min-width: 1024px) {
+            margin-right: 48px;
+            font-size: 16px;
+            line-height: 1.219;
+            max-width: 312px;
         }
 
-        &__hall-container {
-            display: flex;
-            align-items: center;
-
-            @media screen and (min-width: 1024px) {
-                    position: absolute;
-                    top: 476px;
-                    left: 267px;
+                @media screen and (min-width: 1280px) {
+                    margin-right: 45px;
+                    
                 }
-        }
 
-        &__hall-text {
-            margin-right: 21px;
-            color: #C79002;
-            font-weight: 600;
-            font-size: 12px;
-            line-height: 1.25;
-            max-width: 163px;
+    }
 
-            @media screen and (min-width: 1024px) {
-                margin-right: 48px;
-                font-size: 16px;
-                min-width: 312px;
-            }
-            
-        }
+    &__hall-img {
+        border-radius: 2px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 
-        &__hall-img {
-            border-radius: 2px;
-                box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 
-               
-        }
+    }
 }
-
