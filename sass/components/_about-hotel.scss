@@ -144,3 +144,39 @@
 
     }
 }
+
+.slider-container {
+    margin-top: 32px;
+    width: 510px;
+    height: 245px;
+    // border: 2px solid red;
+    overflow: hidden;
+    transform: translateX(-35%);
+    
+    
+}
+
+.slider-line {
+    height: 245px;
+    width: 735px;
+    // background: blue;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    
+}
+
+.icon-svg {
+    width: 40px;
+    height: 40px;
+}
+
+.slider-prev {
+    background-color: transparent;
+}
+
+.slider-next {
+    background-color: transparent;
+}
