@@ -142,17 +142,11 @@ button {
 
 .about-hotel {
   padding-top: 18px;
-  padding-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
   .about-hotel {
     padding-top: 120px;
-    padding-bottom: 32px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .about-hotel {
-    padding-bottom: 50px;
+    position: relative;
   }
 }
 .about-hotel__headline {
@@ -224,12 +218,12 @@ button {
   .about-hotel__room-img {
     position: absolute;
     top: -24px;
-    left: 112px;
+    left: 97px;
   }
 }
 @media screen and (min-width: 1280px) {
   .about-hotel__room-img {
-    left: 180px;
+    left: 165px;
   }
 }
 .about-hotel__hall-container {
@@ -244,13 +238,13 @@ button {
   .about-hotel__hall-container {
     position: absolute;
     top: 476px;
-    left: 267px;
+    left: 252px;
   }
 }
 @media screen and (min-width: 1280px) {
   .about-hotel__hall-container {
     top: 504px;
-    left: 379px;
+    left: 364px;
   }
 }
 .about-hotel__hall-text {
@@ -289,10 +283,30 @@ button {
   -webkit-transform: translateX(-35%);
           transform: translateX(-35%);
 }
+@media screen and (min-width: 1024px) {
+  .slider-container {
+    position: absolute;
+    margin-top: 0;
+    width: 428px;
+    height: 194px;
+    top: 948px;
+    left: 32px;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .slider-container {
+    top: 899px;
+    left: 70px;
+    width: 548px;
+    height: 254px;
+  }
+}
 
 .slider-line {
   height: 245px;
-  width: 735px;
+  width: 1305px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,24 +316,69 @@ button {
   -webkit-transition: all ease 2s;
   transition: all ease 2s;
 }
+@media screen and (min-width: 1024px) {
+  .slider-line {
+    height: 194px;
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .slider-line {
+    width: 1430px;
+    height: 254px;
+  }
+}
+
+.slider-image {
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 1024px) {
+  .slider-button {
+    position: absolute;
+    top: 1154px;
+    left: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .slider-button {
+    top: 1193px;
+    left: 70px;
+  }
+}
 
 .icon-svg {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
 
 .slider-prev {
-  background-color: transparent;
+  margin-right: 20px;
 }
 
+.slider-prev,
 .slider-next {
+  margin-top: 20px;
   background-color: transparent;
 }
-
-.slider-prev:hover {
-  fill: #F3C653;
+@media screen and (min-width: 1024px) {
+  .slider-prev,
+.slider-next {
+    margin-bottom: 32px;
+  }
 }
 
+.slider-prev:hover,
 .slider-next:hover {
   fill: #F3C653;
+}
+@media screen and (min-width: 1280px) {
+  .slider-prev:hover .slider-prev:focus,
+.slider-prev:hover .slider-next:focus,
+.slider-next:hover .slider-prev:focus,
+.slider-next:hover .slider-next:focus {
+    fill: #F3C653;
+  }
 }/*# sourceMappingURL=main.css.map */
