@@ -3,17 +3,19 @@ let offset = 0;
 const sliderLine = document.querySelector('.slider-line');
 
 document.querySelector('.slider-next').addEventListener('click', function () {
-    offset += 245;
-    if (offset > 510) {
+    offset += 200;
+    if (offset > 1100) {
         offset = 0;
     }
+    
     sliderLine.style.left = -offset + 'px';
 });
 
 document.querySelector('.slider-prev').addEventListener('click', function () {
-    offset -= 245;
+    offset -= 200;
     if (offset < 0) {
-        offset = 510;
+        offset = 1100;
     }
+    
     sliderLine.style.left = -offset + 'px';
 });

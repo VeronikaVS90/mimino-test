@@ -299,8 +299,8 @@ button {
   gap: 20px;
   position: relative;
   left: 0;
-  -webkit-transition: all ease 1s;
-  transition: all ease 1s;
+  -webkit-transition: all ease 2s;
+  transition: all ease 2s;
 }
 
 .icon-svg {
@@ -314,4 +314,12 @@ button {
 
 .slider-next {
   background-color: transparent;
+}
+
+.slider-prev:hover {
+  fill: #F3C653;
+}
+
+.slider-next:hover {
+  fill: #F3C653;
 }/*# sourceMappingURL=main.css.map */
